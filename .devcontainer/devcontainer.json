@@ -1,0 +1,29 @@
+{
+  "name": "Scrumrum",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "node",
+  "workspaceFolder": "/workspace/Scrumrum",
+
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    "cschleiden.vscode-github-actions",
+    "firsttris.vscode-jest-runner",
+    "msjsdiag.debugger-for-chrome",
+    "firefox-devtools.vscode-firefox-debug",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "shinnn.stylelint",
+    "stylelint.vscode-stylelint"
+  ],
+
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+
+  "remoteUser": "node"
+}
