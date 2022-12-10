@@ -11,6 +11,9 @@ coverage
 out/
 build
 
+# nest.js
+dist/
+
 # misc
 .DS_Store
 *.pem
