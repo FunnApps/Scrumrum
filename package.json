@@ -1,5 +1,5 @@
 {
-  "name": "youthpod",
+  "name": "scrumrum",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -11,13 +11,19 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "dependencies": {},
   "devDependencies": {
-    "prettier": "latest",
-    "turbo": "latest"
+    "@types/node": "^17.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.8.1",
+    "turbo": "^1.6.3",
+    "typescript": "^4.7.4"
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  }
 }
