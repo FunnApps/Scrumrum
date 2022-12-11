@@ -13,4 +13,28 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ..:/workspace/Scrumrum:delegated
+      - node_modules:/workspace/Scrumrum/node_modules
+      - node_modules_client:/workspace/Scrumrum/packages/client/node_modules
+      - buildcache_client:/workspace/Scrumrum/packages/client/.next
+      - node_modules_server:/workspace/Scrumrum/packages/server/node_modules
     tty: true
+
+  mongo:
+    image: mongo:6.0
+    restart: unless-stopped
+    ports:
+      - 27017:27017
+    volumes:
+      - /data/db
+
+volumes:
+  node_modules:
+  node_modules_client:
+  buildcache_client:
+  node_modules_server:
+
+networks:
+  default:
+    name: scrumrum_default
+    # Set `external` option to true when => https://docs.docker.com/compose/networking/#use-a-pre-existing-network
+    # external: true
