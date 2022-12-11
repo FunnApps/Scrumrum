@@ -1,4 +1,5 @@
 import { NestFactory } from '@nestjs/core'
+import mongoose, { Schema } from 'mongoose'
 import { AppModule } from './app.module'
 
 async function bootstrap() {

@@ -5,14 +5,14 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
-    "module": "esnext",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"]
-    }
+    },
+    "outDir": "./dist"
   },
   "include": ["./**/*"],
   "exclude": ["node_modules"]
