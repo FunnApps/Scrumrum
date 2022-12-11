@@ -1,0 +1,13 @@
+.main {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.header {
+  height: 60px;
+}
+
+.sidebar {
+  width: 200px;
+  height: calc(100vh - 60px);
+}
