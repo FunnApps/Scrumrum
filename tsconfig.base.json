@@ -4,6 +4,7 @@
     "allowJs": false,
     "strict": true,
     "noUncheckedIndexedAccess": true,
+    "experimentalDecorators": true,
     "moduleResolution": "node"
   },
   "include": ["**/*.ts", "**/*.tsx"],
