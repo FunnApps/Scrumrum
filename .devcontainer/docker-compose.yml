@@ -23,7 +23,7 @@ services:
     image: mongo:6.0
     restart: unless-stopped
     ports:
-      - 27017:27017
+      - 27027:27017
     volumes:
       - /data/db
 
