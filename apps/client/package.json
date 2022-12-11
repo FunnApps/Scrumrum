@@ -1,5 +1,5 @@
 {
-  "name": "scrumrum-client",
+  "name": "@scrumrum/client",
   "version": "0.0.0",
   "private": true,
   "scripts": {
