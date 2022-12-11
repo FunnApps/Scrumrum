@@ -1,13 +1,6 @@
 module.exports = {
-  printWidth: 100,
+  printWidth: 200,
   tabWidth: 2,
-  useTabs: false,
-  semi: false,
   singleQuote: true,
   trailingComma: "all",
-  bracketSpacing: true,
-  bracketSameLine: false,
-  arrowParens: "always",
-  requirePragma: false,
-  insertPragma: false,
-};
+}

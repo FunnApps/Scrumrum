@@ -3,5 +3,5 @@ export default function Web() {
     <div>
       <h1>Scrumrum</h1>
     </div>
-  );
+  )
 }
