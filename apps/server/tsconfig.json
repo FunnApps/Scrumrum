@@ -4,7 +4,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "resolveJsonModule": true,
@@ -13,8 +12,7 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"]
-    },
-    "incremental": true
+    }
   },
   "include": ["./**/*"],
   "exclude": ["node_modules"]
